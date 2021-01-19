@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN&REGISTER</title>
+<link rel="stylesheet" type="text/css" href="loginregis.css">
+</head>
+<body>
+	<div class="hero">
+	<div class="formbox">
+		<div class="buttonbox">
+			<div id="btn">
+
+			</div>
+			<button type="button" class="togglebtn" onclick="login()">Log In</button>
+			<button type="button" class="togglebtn" onclick="register()">Register</button>
+
+		</div>
+		<div class="socialicon">
+
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>
+<i class="fa fa-google" aria-hidden="true"></i>
+</div>
+<form class="input" id="login">
+	<input type="text" class="inputfile" value="" placeholder="User ID" required>
+	<input type="password" class="inputfile" value="" placeholder="Password" required>
+	<input type="checkbox" class="checkbox" name="" value=""><span>Remember Password</span>
+	<button type="sumbit" class="sumbitbtn">Log In</button>
+	
+</form>
+<form class="input" id="register">
+	<input type="text" class="inputfile" value="" placeholder="User ID" required>
+	<input type="email" class="inputfile" value="" placeholder="Email ID" required>
+	<input type="text" class="inputfile" value="" placeholder="Password" required>
+	<input type="checkbox" class="checkbox" name="" value=""><span>I AGREE TO THE TERMS & CONDITIONS</span>
+	<button type="sumbit" class="sumbitbtn">Log In</button>
+	
+</form>
+</div>	
+</div>
+<script >
+	var x = document.getElementById("login");
+	var y = document.getElementById("register");
+	var z = document.getElementById("btn");
+
+	 function register(){
+
+	 	x.style.left = "-400px";
+	 	y.style.left = "50px";
+	 	z.style.left = "110px";
+	 }
+
+	 function login(){
+
+	 	x.style.left = "50px";
+	 	y.style.left = "450px";
+	 	z.style.left = "0px";
+	 }
+
+
+</script>
+
+</body>
+</html>

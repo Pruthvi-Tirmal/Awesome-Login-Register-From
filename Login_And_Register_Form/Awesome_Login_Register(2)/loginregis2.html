@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login&resgister</title>
+	<link rel="stylesheet" type="text/css" href="loginregis2.css">
+</head>
+<body>
+	<div class="hero">
+		
+			<div class="box">
+				<div class="i"><var><center>𝔐𝔞𝔱𝔯𝔦𝔵 𝔖𝔭𝔞𝔯𝔨𝔰</center></var></div>
+
+				<div class="btnbox">
+					<div id="btn">
+					</div>
+						<button type="buttton" class="btn1" onclick="login()">LOG IN</button>
+						<button type="buttton" class="btn1" onclick="register()">REGISTER</button>
+
+			</div>
+
+			<div class="socialicon">
+
+<i class="fa fa-facebook" aria-hidden="true"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>
+<i class="fa fa-google" aria-hidden="true"></i>
+<i class="fa fa-google-plus" aria-hidden="true"></i>
+</div>
+
+<div >
+	<form id="login" class="input">
+
+<input type="text" class="t" name="" value="" placeholder="USERNAME" required>
+
+
+
+<input type="password" class="t"value="" placeholder="PASSWORD" required>
+
+
+<input type="checkbox" class="c" value=""> 
+<span><strong>REMEMBER ME</strong></span>
+<input type="submit" class="sumbitbtn" name="" value="LOG IN">
+</form>
+
+	<form id="register" class="input">
+
+<input type="text" class="t" name="" value="" placeholder="USERNAME" required>
+
+<input type="email" class="t" name="" value="" placeholder="EMAIL" required>
+<input type="password" class="t"value="" placeholder="PASSWORD" required>
+
+
+<input type="checkbox" class="c" value="" required=> 
+<span><strong>I AGREE ALL TERMS&CONDITIONS <strong></span>
+<input type="submit" class="sumbitbtn" name="" value="REGISTER">
+</form>
+
+
+
+		
+
+	
+
+		
+
+			</div>
+	</div>
+
+<script >
+	var x = document.getElementById("login");
+	var y = document.getElementById("register");
+	var z = document.getElementById("btn");
+
+	 function register(){
+
+	 	x.style.left = "-360px";
+	 	y.style.left = "10px";
+	 	z.style.left = "110px";
+	 }
+
+	 function login(){
+
+	 	x.style.left = "10px";
+	 	y.style.left = "410px";
+	 	z.style.left = "0px";
+	 }
+
+
+
+</script>
+ 
+</body>
+</html>

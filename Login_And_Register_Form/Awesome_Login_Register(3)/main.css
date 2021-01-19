@@ -1,0 +1,94 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+body
+{
+	background-image: linear-gradient(120deg,#2ecc71,#3498db);
+	
+	font-family: sans-serif;
+	
+}
+.box
+{
+/* 	top: 50%; */
+/* 	left:50%; */
+	border-radius: 10px; 
+	width:300px;
+	height: 500px; 
+/* 	float: right; */
+	background-color: white;
+	background: rgba(255,255,255,0.5);
+/*   position:absolute; */
+	text-align: center;
+	padding: 24px 24px;
+	margin: 300px auto ;
+	transform: translate(10%,-50%);
+
+
+}
+.box h1
+{
+	text-transform: uppercase;
+	border-bottom: 6px solid #2ecc71;
+	width:100px;
+	font size:40px; 
+	padding-top: 50px;
+	text-align: left;
+	 
+}
+.boxa input
+{
+	text-align: left;
+	padding-top: 80px;
+	outline: none;
+	background: none;
+	border:none;
+	color:white;
+	border-bottom: 3px solid #2ecc71;
+	transition: 0.25s;
+	font-size: 20px;
+
+
+}
+.boxa i
+{
+	
+	font-size: 30px;
+	transition: 0.25s;
+}
+
+.boxa input:focus
+{
+	border-bottom:  4px solid #3498db;
+
+}
+
+.box input[type="button"]
+{
+
+	margin-top: 80px;
+	width:80%;
+	padding:10px 10px; 
+	background-image: linear-gradient(120deg,#2ecc71,#3498db);
+	border:none;
+	outline: none;
+	color:white;
+	cursor: pointer;
+	background-size: 200%;
+	transition: 0.5s;
+
+}
+.box input[type="button"]:hover
+{
+
+	background-position: right;
+	border-radius: 50px;
+}
+
+.box h1:hover
+
+{
+	border-bottom: 6px solid #3498db;
+
+}
+

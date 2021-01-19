@@ -1,0 +1,192 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+
+*
+{
+margin :  0px;
+padding : 0px;
+font-family: sans-serif; 
+
+}
+
+.hero
+{
+width: 100%;
+height: 100%;
+background-position: center;
+position: absolute;
+background: linear-gradient(90deg,#eb4d4b,#e056fd);
+
+}
+
+.box
+{
+	width:350px;
+	height:580px;
+	background: #fff;
+	margin:50px auto;
+	position: relative;
+	padding: 10px;
+	
+	overflow: hidden;
+	
+
+}
+
+.btnbox
+
+{
+	width:220px;
+	
+
+	margin: 20px auto;
+	
+	position: relative;
+
+
+}
+
+.btn1
+{
+position: relative;
+outline: none;
+background: transparent;
+border : none;
+padding: 14px;
+padding-left: 30px;
+cursor: pointer;
+
+}
+#btn
+{
+background: linear-gradient(90deg,#e056fd,#eb4d4b);
+position: absolute;
+top: 0;
+left: 0;
+transition: 0.5s;
+border-radius: 30px;
+height:100%;
+width: 110px;
+
+
+}
+.socialicon
+{
+
+	margin :30px auto;
+	text-align: center;
+}
+
+.socialicon i
+{
+
+	width: 30px;
+	padding: 20px;
+	font-size: 20px;
+	color:#e056fd;
+		transition: 0.5s;
+		cursor: pointer;
+}
+
+.socialicon i:hover
+{
+	font-size: 50px;
+	color:#eb4d4b;
+}
+
+.input
+{
+
+	
+	top:45%;
+	position: absolute;
+	width:280px;
+	
+	transition: 0.5s;
+
+
+}
+
+.t
+{	
+
+	width:100%;
+	transition: 0.5s;
+	border:none;
+	padding-top:20px;
+	border-bottom: 2px solid  #eb4d4b;
+	color: black;
+	font-size: 15px;
+	outline: none;
+	margin-left: 30px;
+	background: transparent;
+	
+}
+
+.t:focus
+{
+	border-bottom: 2px solid  #e056fd;
+
+}
+
+.c
+{
+	
+margin: 30px 10px 30px 30px; 
+
+
+}
+.sumbitbtn
+{
+
+	width:85%;
+	border:none;
+	outline: none;
+	display: block;
+	cursor: pointer;
+	padding-top:20px; 
+	padding-bottom:  20px ;
+	border-radius: 30px;
+	margin-left: 50px;
+	background: linear-gradient(to right,#e056fd,#eb4d4b);
+
+}
+span{
+	color: #777;
+	font-size: 12px;
+	bottom :87px;
+	position: absolute;
+	}
+
+	#login
+	{
+		left: 10px;
+	}
+	#register
+	{
+		left: 450px;
+	}
+
+	
+	.in
+	{
+  		padding: 4px;
+		text-align: center;
+		top: 0px;
+		
+		
+									
+
+	}
+	.i
+	{
+		margin-top: 30px;
+		font-size: 40px;
+		color: black;
+
+
+	}
+	
+	
+		
