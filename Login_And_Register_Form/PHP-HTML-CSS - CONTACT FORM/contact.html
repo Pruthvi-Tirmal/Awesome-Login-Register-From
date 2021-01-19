@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact_format.css" />
+    <title>Contact_Form</title>
+  </head>
+  <body>
+    <div class="contact-title">
+      <h1>Say Hello</h1>
+      <h2>We Are Always Ready To Serve You!</h2>
+    </div>
+    <div class="contact-form">
+      <form id="contact-form" method='post' action="contact_handler.php">
+        <input type="text" name="name" class='form-control' placeholder="Your Name " required autofocus> <br>
+        <input type="email" name="email" class="form-control" placeholder="Your Email" required><br>
+        <textarea name="MESSAGES" class="form-control" placeholder="Message" rows="2"></textarea> 
+        <br>
+        <input type="submit" value="SEND MESSAGES" class="form-control submit">
+      </form>
+    </div>
+  </body>
+</html>

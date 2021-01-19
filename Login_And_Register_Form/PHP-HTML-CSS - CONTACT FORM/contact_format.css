@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("pexels-pixabay-462024.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.contact-title {
+  margin-top: 100px;
+  color: black;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+.contact-title h1 {
+  font-size: 42px;
+  line-height: 10px;
+}
+
+.contact-title h2 {
+  font-size: 26px;
+}
+
+form {
+  border: solid 1px skyblue;
+  padding: 30px;
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+  width: 40%;
+  position: fixed;
+  left: 30%;
+  top: 30%;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.form-control {
+  widows: 600px;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+}
+textarea {
+  color: black;
+  padding-top: 10px;
+  width: 100%;
+}
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
