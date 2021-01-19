@@ -1,0 +1,65 @@
+body
+{
+	background-color: #a1a1a1;
+	background-image: url('aerial-photo-of-boat-on-sea-1655166.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-position:center;
+	background-attachment: fixed;
+
+}
+
+.row
+{
+	width: 100%;
+}
+
+
+h1
+{
+	margin-bottom: 30px;
+	color: #F0F3F4;
+	font-family: 'Lobster', cursive;
+}
+.modal-content
+{
+	border-radius: 20px;
+	background-color: rgba(52, 73, 94,0.4);
+	color: ghostwhite; 
+}
+
+.modal-header
+{
+	border-bottom: none;
+}
+
+.modal-footer
+{
+	justify-content: center;
+	border-top:none; 
+}
+
+ .ro
+{
+	border-radius: 20px;
+}
+
+.size
+{
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+input[type=email],input[type=password]
+{
+	border-radius: 40px;
+	margin: 10px 0;
+	border: 1px solid deepskyblue;
+	
+}
+input[type=checkbox]
+{
+	margin: 7px;
+}

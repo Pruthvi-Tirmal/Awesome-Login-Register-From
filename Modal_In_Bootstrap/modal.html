@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Modal Login</title>
+  </head>
+  <body>
+    <!-- data-toggler is also compulsory data - target :  is very compulsory (it should Be ID'S) and should add to class modal with same id.  -->
+    <div class="container">
+      <div class="row size">
+        <div class="col-sm-12 text-center">
+          <h1>TO ACCESS OUR WEBSITE</h1>
+          <p>
+            <a
+              href="#"
+              data-toggle="modal"
+              data-target="#login-modal"
+              role="button"
+              class="btn btn-info btn-lg"
+              >Login Here</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="login-modal">
+      <div class="modal-dialog" style="border: none">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <img
+              src="phoenix-logo-stock-photography-royaltyfree-fred-astaire-dance-studios-art-symbol-flame-png-clip-art.png"
+              class="img-thumbnail d-block mx-auto"
+              width="100px"
+              height="100px"
+              alt="Error"
+            />
+          </div>
+          <div id="div-forms">
+            <form>
+              <div class="modal-body">
+                <div>
+                  <span>Type Your Email Address & Passwords : </span>
+                </div>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter Email Address"
+                  required
+                />
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Enter Passwords"
+                  required
+                />
+                <div class="checkbox">
+                  <label> <input type="checkbox" />Remember me </label>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <div class="row">
+                  <div class="col-6">
+                    <button type="submit" class="btn btn-info ro btn-block">
+                      Login
+                    </button>
+                  </div>
+                  <div class="col-6">
+                    <button type="submit" class="btn btn-info ro btn-block">
+                      SignUp
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- Jquery First || Popper Second || then Bootstraps-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</html>
